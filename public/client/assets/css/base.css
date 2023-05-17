@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+:root {
+    --main-color: #037dff;
+    --primary-color: #E95211;
+    --text-color: #231f20;
+    --white-color: #fff;
+    --border-radius: 5px;
+
+
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333e44;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+
+}
+
+.fadeinbt {
+    display: flex;
+}
+
+.fadeputbt {
+    display: none;
+}
+
+.grid {
+    width: 100%;
+    display: block;
+}
+
+.grid.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content-main {
+    min-height: 333px;
+}
+
+.bg-main {
+    background-color: #ba0c48(--main-color);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+li {
+    padding: 0;
+}
+
+.btn-view {
+    outline-style: none;
+    color: #ba0c48(--white-color);
+    border: 3px solid #ba0c48(--white-color);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.btn-view:hover {
+    background-color: #bfdbfe;
+
+}
+
+a,
+.nav-link {
+    text-decoration: none;
+
+}
+
+
+.backtop {
+    width: 50px;
+    height: 50px;
+    background-color: #ba0c48(--main-color);
+    color: #ba0c48(--white-color);
+    border-radius: 50%;
+    position: fixed;
+    bottom: 57px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 2rem;
+    display: none;
+    z-index: 1001;
+}
+
+.backtop>i {
+    position: absolute;
+    top: 15px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+#footer-contact {
+    width: auto;
+    height: auto;
+    background-color: #93c5fd;
+    color: #ba0c48(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: #ba0c48(--border-radius);
+    position: fixed;
+    bottom: 63px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.alert {
+    font-size: 1.4rem;
+}
+
+.outline-main,
+.border-main {
+    border: 2px solid #ba0c48(--main-color);
+    border-radius: #ba0c48(--border-radius) !important;
+}
+
+.outline-main:hover {
+    border: 2px solid #ba0c48(--main-color);
+    background-color: #ba0c48(--main-color);
+    color: #ba0c48(--white-color);
+}
+
+/* scroll */
+
+.header-scroll {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    height: 4px;
+    background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+    height: 8px;
+    background: #ba0c48(--main-color);
+    width: 0%;
+}
+
+.text-color-main {
+    color: #ba0c48(--main-color) !important;
+}
+.text-color-primary {
+    color: #ba0c48(--primary-color) !important;
+}
+
+.form-control {
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+
+.form-control-main:focus {
+    border: 1px solid #ba0c48(--main-color);
+}
+
+.fadein {
+    height: 43.8px;
+    width: 100%;
+}
+
+.border-bottom-main {
+    border-bottom: 2px solid #ba0c48(--main-color);
+}
+.border-top-main {
+    border-top: 2px solid #ba0c48(--main-color);
+}
+
+.btn-main {
+    padding: 10px;
+    font-size: 14px;
+    /* margin-top: 20px; */
+    background-color: #ba0c48(--main-color);
+    border: none;
+    border-radius: #ba0c48(--border-radius);
+    color: #ba0c48(--white-color);
+
+}
+
+.btn-main:hover {
+    background-color: #ba0c48(--primary-color);
+    color: #ba0c48(--white-color);
+
+}
+
+.bg-form-control {
+    background-color: #eff6ff;
+}
+
+.border-radius-main {
+    border-radius: #ba0c48(--border-radius) !important;
+}
